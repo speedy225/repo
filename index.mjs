@@ -72,7 +72,7 @@ const main = async () => {
 
     console.log("Signing the transaction...");
     const signedTx = await builtTx.sign();
-    console.log('Transaction signed with private key successfully.');
+    console.log('Transaction signed successfully.');
 
     console.log("Submitting transaction...");
     const txHash = await signedTx.submit();
